@@ -1,0 +1,6 @@
+multiple1.txt
+//porject_gutenberg : pride and prejudice https://www.gutenberg.org/files/1342/1342-0.txt;  Cinco minutos https://www.gutenberg.org/cache/epub/44540/pg44540.txt; La Navidad en las Montanas https://www.gutenberg.org/cache/epub/10825/pg10825.txt ; Traité des eunuques https://www.gutenberg.org/files/39320/39320-0.txt ; Der deutsche Durst Methyologische Skizzen der deutschen Kulturgeschichte https://www.gutenberg.org/files/48120/48120-0.txt;
+
+//english, pt, spanish, french, German, italian
+
+
