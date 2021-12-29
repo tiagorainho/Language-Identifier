@@ -1,0 +1,21 @@
+To run the modules (building is not necessary in python):
+
+##lang module:
+```
+python3 src/lang.py --files dataset/eng_AU.latn.Aboriginal_English.comb-train.utf8 --k 10 --alpha 0.5 --t test_files/english_text.txt
+```
+
+##findlang module:
+
+```
+python3 src/findlang.py --file test_files/english_text.txt --k 3 4 5 --alpha 0.1 0.2 0.3 --threshold 4 --languages portuguese english spanish
+```
+
+##locatelang module:
+
+```
+python3 src/locatelang.py --file test_files/multiple.txt --threshold 5 --show True --languages english portuguese spanish italian french german
+```
+
+The truth.txt file is only compatible with multiple.txt file
+

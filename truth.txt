@@ -1,0 +1,1 @@
+[["english", 0], ["portuguese", 753], ["spanish", 1120], ["french", 1545], ["german", 1861], ["italian", 2144]]

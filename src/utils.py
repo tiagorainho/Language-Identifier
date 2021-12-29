@@ -34,6 +34,7 @@ class colors:
         cyan='\033[46m'
         lightgrey='\033[47m'
 
+
 if __name__ == '__main__':
     print(colors.fg.green, "SKk", colors.reset, "Amartya")
     print(colors.bg.lightgrey, "SKk", colors.fg.red, "Amartya")

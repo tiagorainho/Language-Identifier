@@ -8,6 +8,7 @@ class FCM:
 
 
     def __init__(self, k:int, alpha:float, alphabet:str=''):
+        assert alpha > 0, 'FCM cannot contain alpha == 0'
         self.finitecontext: Dict[str, List[str, int]] = dict()
         self.k: int = k
         self.alpha: float = alpha
@@ -60,7 +61,7 @@ class FCM:
         H = 0
         # calculate sum of all Psc
         sum_Psc = sum([t[1] for tuple_list in self.finitecontext.values() for t in tuple_list])
-        for context, tuple_list in self.finitecontext.items():
+        for _, tuple_list in self.finitecontext.items():
             Hc = Pec = 0
             Psc = sum(t[1] for t in tuple_list)
             for t in tuple_list:
