@@ -2,6 +2,10 @@
 datasets/
 
 
+
+.DS_Store
+
+
 # remove language datasets
 completeDatasets/
 MIL-TALE/*
