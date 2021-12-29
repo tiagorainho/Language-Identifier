@@ -120,4 +120,4 @@ if __name__ == '__main__':
         text = ''.join([line for line in file.readlines()])
     
     num_bits = round(lang.amount_of_information(text, lang.fcm_list[0]), 3)
-    print(f"Estimated number of bits required to compress t, using the computed model {args.modeltext}:\n{num_bits}")
+    print(f"Estimated number of bits required to compress t, using the computed model {args.files}:\n{num_bits}")
